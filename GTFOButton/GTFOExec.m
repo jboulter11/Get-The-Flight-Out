@@ -24,7 +24,7 @@
         exec.origins = @[@"BOS"];
         exec.dest = nil;
         exec.nights = @7;
-        exec.price = @1000;
+        exec.price = @2000;
         exec.uber = @1;
     });
     return exec;

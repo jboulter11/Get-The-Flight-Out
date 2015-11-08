@@ -25,7 +25,7 @@
         self.mode = mode;
         
         entryTextField = [[UITextField alloc] init];
-        [entryTextField setText:(!mode ? @"7" : @"1000")];
+        [entryTextField setText:(!mode ? @"7" : @"2000")];
         [entryTextField setTextAlignment:NSTextAlignmentCenter];
         [entryTextField setDelegate:self];
         

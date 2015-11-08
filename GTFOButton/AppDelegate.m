@@ -20,7 +20,7 @@
 {
     [[UINavigationBar appearance] setBarStyle:UIBarStyleBlack];
     
-    [[UINavigationBar appearance] setBarTintColor:[UIColor colorWithRed:0.97 green:0.66 blue:0.15 alpha:1]];
+    [[UINavigationBar appearance] setBarTintColor:[UIColor colorWithRed:0.03 green:0.2 blue:0.45 alpha:1]];
     [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor]}];
     
     ViewController* vc = [[ViewController alloc] init];

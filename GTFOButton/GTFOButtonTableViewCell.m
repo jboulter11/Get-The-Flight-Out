@@ -23,7 +23,7 @@
         button = [[UIButton alloc] init];
         [button setTitle:@"Save Preferences" forState:UIControlStateNormal];
         [button.layer setCornerRadius:[GTFOExec cornerRadius]];
-        button.backgroundColor = [UIColor colorWithRed:0.97 green:0.66 blue:0.15 alpha:1];
+        button.backgroundColor = [UIColor colorWithRed:0.02 green:0.35 blue:0.66 alpha:1];
         
         [button addTarget:self action:@selector(save) forControlEvents:UIControlEventTouchUpInside];
         
