@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GTFOExec.h"
+#import "GTFOTableViewCell.h"
 
-@interface GTFOPickerTableViewCell : UITableViewCell
+typedef enum : NSUInteger {
+    GTFOPickerModeFrom,
+    GTFOPickerModeTo,
+} GTFOPickerMode;
 
+@interface GTFOPickerTableViewCell : GTFOTableViewCell <UIPickerViewDelegate, UIPickerViewDataSource>
+@property UIView* view;
+
+-(instancetype)initWithMode:(GTFOPickerMode)mode;
 @end

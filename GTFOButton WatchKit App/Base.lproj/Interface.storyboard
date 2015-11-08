@@ -1,24 +1,41 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6724" systemVersion="14A389" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3735"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="9019"/>
     </dependencies>
     <scenes>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider=""/>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController">
+                    <items>
+                        <button width="136" height="277.5" alignment="left" title="GTFO" id="Nv9-nw-p63">
+                            <color key="backgroundColor" red="1" green="0.078117130640000004" blue="0.037397620049999997" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="gtfo" destination="AgC-eL-Hgc" id="N6j-X3-rac"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
             </objects>
             <point key="canvasLocation" x="235" y="347"/>
         </scene>
         <!--Glance Interface Controller-->
         <scene sceneID="BOz-TT-tkC">
             <objects>
-                <glanceController spacing="0.0" id="0uZ-2p-rRc" customClass="GlanceController" customModuleProvider="">
+                <glanceController spacing="0.0" id="0uZ-2p-rRc" customClass="GlanceController">
                     <items>
-                        <group alignment="left" id="t8f-Gd-c4y"/>
-                        <group alignment="left" id="uCw-4Q-Ouw"/>
+                        <group alignment="left" id="t8f-Gd-c4y">
+                            <items>
+                                <label width="136" height="113.5" alignment="left" text="GTFO" id="Q9R-vC-u9N"/>
+                            </items>
+                        </group>
+                        <group alignment="left" id="uCw-4Q-Ouw">
+                            <items>
+                                <label width="136" height="179.5" alignment="left" text="Tap to Arm" textAlignment="center" id="5IV-a3-6ko"/>
+                            </items>
+                        </group>
                     </items>
                     <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="14"/>
                 </glanceController>
@@ -44,7 +61,7 @@
         <!--Notification Controller-->
         <scene sceneID="KIl-fV-djm">
             <objects>
-                <controller id="gdX-wl-uQE" customClass="NotificationController" customModuleProvider=""/>
+                <controller id="gdX-wl-uQE" customClass="NotificationController"/>
             </objects>
             <point key="canvasLocation" x="553" y="1001"/>
         </scene>

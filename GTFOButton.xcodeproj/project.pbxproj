@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		081D373EAAAA4616F046ED37 /* Pods_GTFOButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA87D42E415248617EE4F07C /* Pods_GTFOButton.framework */; };
 		0C0E64971BEDC64600557FA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0E64961BEDC64600557FA8 /* main.m */; };
 		0C0E649A1BEDC64600557FA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0E64991BEDC64600557FA8 /* AppDelegate.m */; };
 		0C0E649D1BEDC64600557FA8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0E649C1BEDC64600557FA8 /* ViewController.m */; };
-		0C0E64A01BEDC64600557FA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C0E649E1BEDC64600557FA8 /* Main.storyboard */; };
 		0C0E64A21BEDC64600557FA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C0E64A11BEDC64600557FA8 /* Assets.xcassets */; };
 		0C0E64A51BEDC64600557FA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C0E64A31BEDC64600557FA8 /* LaunchScreen.storyboard */; };
 		0C0E64AA1BEDC64700557FA8 /* GTFOButton WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0C0E64A91BEDC64700557FA8 /* GTFOButton WatchKit App.app */; };
@@ -22,6 +22,13 @@
 		0C0E64C71BEDC64800557FA8 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0E64C61BEDC64800557FA8 /* NotificationController.m */; };
 		0C0E64CA1BEDC64800557FA8 /* GlanceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0E64C91BEDC64800557FA8 /* GlanceController.m */; };
 		0C0E64CC1BEDC64800557FA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C0E64CB1BEDC64800557FA8 /* Assets.xcassets */; };
+		0C0E64DE1BEDD55900557FA8 /* GTFOPickerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0E64DD1BEDD55900557FA8 /* GTFOPickerTableViewCell.m */; };
+		0C17EF3A1BEDDC0C00D76E1A /* GTFOExec.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C17EF391BEDDC0C00D76E1A /* GTFOExec.m */; };
+		0C17EF3D1BEE74B900D76E1A /* GTFONumberTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C17EF3C1BEE74B900D76E1A /* GTFONumberTableViewCell.m */; };
+		0C17EF401BEE762D00D76E1A /* GTFOTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C17EF3F1BEE762D00D76E1A /* GTFOTableViewCell.m */; };
+		0C17EF441BEE991200D76E1A /* GTFOButtonTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C17EF431BEE991200D76E1A /* GTFOButtonTableViewCell.m */; };
+		0C17EF471BEEAC1B00D76E1A /* GTFOUberTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C17EF461BEEAC1B00D76E1A /* GTFOUberTableViewCell.m */; };
+		A50A27C7BB25D423E3C63C33 /* Pods_GTFOButton_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD01CB9140D25ACFA4CE720A /* Pods_GTFOButton_WatchKit_Extension.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,7 +80,6 @@
 		0C0E64991BEDC64600557FA8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0C0E649B1BEDC64600557FA8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0C0E649C1BEDC64600557FA8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0C0E649F1BEDC64600557FA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0C0E64A11BEDC64600557FA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C0E64A41BEDC64600557FA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C0E64A61BEDC64600557FA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -93,6 +99,24 @@
 		0C0E64C91BEDC64800557FA8 /* GlanceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlanceController.m; sourceTree = "<group>"; };
 		0C0E64CB1BEDC64800557FA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C0E64CD1BEDC64800557FA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C0E64DC1BEDD55900557FA8 /* GTFOPickerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTFOPickerTableViewCell.h; sourceTree = "<group>"; };
+		0C0E64DD1BEDD55900557FA8 /* GTFOPickerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTFOPickerTableViewCell.m; sourceTree = "<group>"; };
+		0C17EF381BEDDC0C00D76E1A /* GTFOExec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTFOExec.h; sourceTree = "<group>"; };
+		0C17EF391BEDDC0C00D76E1A /* GTFOExec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTFOExec.m; sourceTree = "<group>"; };
+		0C17EF3B1BEE74B900D76E1A /* GTFONumberTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTFONumberTableViewCell.h; sourceTree = "<group>"; };
+		0C17EF3C1BEE74B900D76E1A /* GTFONumberTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTFONumberTableViewCell.m; sourceTree = "<group>"; };
+		0C17EF3E1BEE762D00D76E1A /* GTFOTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTFOTableViewCell.h; sourceTree = "<group>"; };
+		0C17EF3F1BEE762D00D76E1A /* GTFOTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTFOTableViewCell.m; sourceTree = "<group>"; };
+		0C17EF421BEE991200D76E1A /* GTFOButtonTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTFOButtonTableViewCell.h; sourceTree = "<group>"; };
+		0C17EF431BEE991200D76E1A /* GTFOButtonTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTFOButtonTableViewCell.m; sourceTree = "<group>"; };
+		0C17EF451BEEAC1B00D76E1A /* GTFOUberTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTFOUberTableViewCell.h; sourceTree = "<group>"; };
+		0C17EF461BEEAC1B00D76E1A /* GTFOUberTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTFOUberTableViewCell.m; sourceTree = "<group>"; };
+		1EEBDBAE7F67AA15FCA05D46 /* Pods-GTFOButton WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTFOButton WatchKit Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GTFOButton WatchKit Extension/Pods-GTFOButton WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		36D8CD8FC1B15EFECF310C15 /* Pods-GTFOButton WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTFOButton WatchKit Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-GTFOButton WatchKit Extension/Pods-GTFOButton WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		3849A5FE5B09B0CA556E12CE /* Pods-GTFOButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTFOButton.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GTFOButton/Pods-GTFOButton.debug.xcconfig"; sourceTree = "<group>"; };
+		B4EB72B8F20CF1F667DDD4D6 /* Pods-GTFOButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTFOButton.release.xcconfig"; path = "Pods/Target Support Files/Pods-GTFOButton/Pods-GTFOButton.release.xcconfig"; sourceTree = "<group>"; };
+		CD01CB9140D25ACFA4CE720A /* Pods_GTFOButton_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GTFOButton_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA87D42E415248617EE4F07C /* Pods_GTFOButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GTFOButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				081D373EAAAA4616F046ED37 /* Pods_GTFOButton.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A50A27C7BB25D423E3C63C33 /* Pods_GTFOButton_WatchKit_Extension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +146,8 @@
 				0C0E64AD1BEDC64700557FA8 /* GTFOButton WatchKit App */,
 				0C0E64BC1BEDC64800557FA8 /* GTFOButton WatchKit Extension */,
 				0C0E64931BEDC64600557FA8 /* Products */,
+				1F009A549C1BD5B2E168883C /* Pods */,
+				8670FABE420EB36CE628F2D4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -136,11 +164,13 @@
 		0C0E64941BEDC64600557FA8 /* GTFOButton */ = {
 			isa = PBXGroup;
 			children = (
+				0C17EF381BEDDC0C00D76E1A /* GTFOExec.h */,
+				0C17EF391BEDDC0C00D76E1A /* GTFOExec.m */,
+				0C0E64DB1BEDD52000557FA8 /* Cells */,
 				0C0E64981BEDC64600557FA8 /* AppDelegate.h */,
 				0C0E64991BEDC64600557FA8 /* AppDelegate.m */,
 				0C0E649B1BEDC64600557FA8 /* ViewController.h */,
 				0C0E649C1BEDC64600557FA8 /* ViewController.m */,
-				0C0E649E1BEDC64600557FA8 /* Main.storyboard */,
 				0C0E64A11BEDC64600557FA8 /* Assets.xcassets */,
 				0C0E64A31BEDC64600557FA8 /* LaunchScreen.storyboard */,
 				0C0E64A61BEDC64600557FA8 /* Info.plist */,
@@ -193,6 +223,51 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0C0E64DB1BEDD52000557FA8 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0C17EF411BEE7C1B00D76E1A /* Master */,
+				0C0E64DC1BEDD55900557FA8 /* GTFOPickerTableViewCell.h */,
+				0C0E64DD1BEDD55900557FA8 /* GTFOPickerTableViewCell.m */,
+				0C17EF3B1BEE74B900D76E1A /* GTFONumberTableViewCell.h */,
+				0C17EF3C1BEE74B900D76E1A /* GTFONumberTableViewCell.m */,
+				0C17EF421BEE991200D76E1A /* GTFOButtonTableViewCell.h */,
+				0C17EF431BEE991200D76E1A /* GTFOButtonTableViewCell.m */,
+				0C17EF451BEEAC1B00D76E1A /* GTFOUberTableViewCell.h */,
+				0C17EF461BEEAC1B00D76E1A /* GTFOUberTableViewCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		0C17EF411BEE7C1B00D76E1A /* Master */ = {
+			isa = PBXGroup;
+			children = (
+				0C17EF3E1BEE762D00D76E1A /* GTFOTableViewCell.h */,
+				0C17EF3F1BEE762D00D76E1A /* GTFOTableViewCell.m */,
+			);
+			name = Master;
+			sourceTree = "<group>";
+		};
+		1F009A549C1BD5B2E168883C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3849A5FE5B09B0CA556E12CE /* Pods-GTFOButton.debug.xcconfig */,
+				B4EB72B8F20CF1F667DDD4D6 /* Pods-GTFOButton.release.xcconfig */,
+				1EEBDBAE7F67AA15FCA05D46 /* Pods-GTFOButton WatchKit Extension.debug.xcconfig */,
+				36D8CD8FC1B15EFECF310C15 /* Pods-GTFOButton WatchKit Extension.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8670FABE420EB36CE628F2D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA87D42E415248617EE4F07C /* Pods_GTFOButton.framework */,
+				CD01CB9140D25ACFA4CE720A /* Pods_GTFOButton_WatchKit_Extension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -200,10 +275,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C0E64D81BEDC64800557FA8 /* Build configuration list for PBXNativeTarget "GTFOButton" */;
 			buildPhases = (
+				DE3F419F709466747E539336 /* Check Pods Manifest.lock */,
 				0C0E648E1BEDC64600557FA8 /* Sources */,
 				0C0E648F1BEDC64600557FA8 /* Frameworks */,
 				0C0E64901BEDC64600557FA8 /* Resources */,
 				0C0E64D71BEDC64800557FA8 /* Embed Watch Content */,
+				CA09454950BC3B3DCE496FF7 /* Copy Pods Resources */,
+				38BC070E30661F01EC929181 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -236,9 +314,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C0E64D01BEDC64800557FA8 /* Build configuration list for PBXNativeTarget "GTFOButton WatchKit Extension" */;
 			buildPhases = (
+				CF701C977356ECA198140644 /* Check Pods Manifest.lock */,
 				0C0E64B41BEDC64800557FA8 /* Sources */,
 				0C0E64B51BEDC64800557FA8 /* Frameworks */,
 				0C0E64B61BEDC64800557FA8 /* Resources */,
+				4F3731FAD3D593F36B0FD91B /* Copy Pods Resources */,
+				B6AFD5CCFE40BE5D85A00B8F /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -296,7 +377,6 @@
 			files = (
 				0C0E64A51BEDC64600557FA8 /* LaunchScreen.storyboard in Resources */,
 				0C0E64A21BEDC64600557FA8 /* Assets.xcassets in Resources */,
-				0C0E64A01BEDC64600557FA8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,13 +399,112 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		38BC070E30661F01EC929181 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GTFOButton/Pods-GTFOButton-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F3731FAD3D593F36B0FD91B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GTFOButton WatchKit Extension/Pods-GTFOButton WatchKit Extension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6AFD5CCFE40BE5D85A00B8F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GTFOButton WatchKit Extension/Pods-GTFOButton WatchKit Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA09454950BC3B3DCE496FF7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GTFOButton/Pods-GTFOButton-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF701C977356ECA198140644 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DE3F419F709466747E539336 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0C0E648E1BEDC64600557FA8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0C0E649D1BEDC64600557FA8 /* ViewController.m in Sources */,
+				0C17EF401BEE762D00D76E1A /* GTFOTableViewCell.m in Sources */,
+				0C17EF3A1BEDDC0C00D76E1A /* GTFOExec.m in Sources */,
+				0C17EF441BEE991200D76E1A /* GTFOButtonTableViewCell.m in Sources */,
+				0C0E64DE1BEDD55900557FA8 /* GTFOPickerTableViewCell.m in Sources */,
 				0C0E649A1BEDC64600557FA8 /* AppDelegate.m in Sources */,
+				0C17EF471BEEAC1B00D76E1A /* GTFOUberTableViewCell.m in Sources */,
+				0C17EF3D1BEE74B900D76E1A /* GTFONumberTableViewCell.m in Sources */,
 				0C0E64971BEDC64600557FA8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -357,14 +536,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0C0E649E1BEDC64600557FA8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0C0E649F1BEDC64600557FA8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0C0E64A31BEDC64600557FA8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -468,6 +639,7 @@
 		};
 		0C0E64D11BEDC64800557FA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EEBDBAE7F67AA15FCA05D46 /* Pods-GTFOButton WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "GTFOButton WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
@@ -482,6 +654,7 @@
 		};
 		0C0E64D21BEDC64800557FA8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36D8CD8FC1B15EFECF310C15 /* Pods-GTFOButton WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "GTFOButton WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
@@ -526,6 +699,7 @@
 		};
 		0C0E64D91BEDC64800557FA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3849A5FE5B09B0CA556E12CE /* Pods-GTFOButton.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GTFOButton/Info.plist;
@@ -537,6 +711,7 @@
 		};
 		0C0E64DA1BEDC64800557FA8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4EB72B8F20CF1F667DDD4D6 /* Pods-GTFOButton.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GTFOButton/Info.plist;
@@ -565,6 +740,7 @@
 				0C0E64D21BEDC64800557FA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C0E64D41BEDC64800557FA8 /* Build configuration list for PBXNativeTarget "GTFOButton WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -573,6 +749,7 @@
 				0C0E64D61BEDC64800557FA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C0E64D81BEDC64800557FA8 /* Build configuration list for PBXNativeTarget "GTFOButton" */ = {
 			isa = XCConfigurationList;
@@ -581,6 +758,7 @@
 				0C0E64DA1BEDC64800557FA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

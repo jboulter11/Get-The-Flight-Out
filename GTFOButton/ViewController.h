@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GTFOPickerTableViewCell.h"
+#import "GTFONumberTableViewCell.h"
+#import "GTFOButtonTableViewCell.h"
+#import "GTFOUberTableViewCell.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 
 
 @end

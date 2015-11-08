@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GTFOExec.h"
 
 @interface GTFOTableViewCell : UITableViewCell
+@property UIView* view;
 
++(NSString*)classString;
+-(NSString *)reuseIdentifier;
 @end

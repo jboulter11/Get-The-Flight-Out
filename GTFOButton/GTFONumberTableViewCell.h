@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GTFOTableViewCell.h"
 
-@interface GTFONumberTableViewCell : UITableViewCell
+typedef enum : NSUInteger {
+    GTFONumberModeNights,
+    GTFONumberModePrice,
+} GTFONumberMode;
+
+@interface GTFONumberTableViewCell : GTFOTableViewCell <UITextFieldDelegate>
+
+-(instancetype)initWithMode:(GTFONumberMode)mode;
 
 @end

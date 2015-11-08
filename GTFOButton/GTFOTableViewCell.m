@@ -9,15 +9,29 @@
 #import "GTFOTableViewCell.h"
 
 @implementation GTFOTableViewCell
+@synthesize view;
 
-- (void)awakeFromNib {
-    // Initialization code
+-(instancetype)init
+{
+    self = [super initWithStyle:UITableViewCellStyleDefault reuseIdentifier:[self reuseIdentifier]];
+    if(self)
+    {
+        view = self.contentView;
+        
+        self.selectionStyle = UITableViewCellSelectionStyleNone;
+        
+    }
+    return self;
 }
 
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated {
-    [super setSelected:selected animated:animated];
++(NSString*)classString
+{
+    return NSStringFromClass([self class]);
+}
 
-    // Configure the view for the selected state
+-(NSString *)reuseIdentifier
+{
+    return NSStringFromClass([self class]);
 }
 
 @end

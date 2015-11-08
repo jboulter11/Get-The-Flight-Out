@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GTFOTableViewCell.h"
 
-@interface GTFOButtonTableViewCell : UITableViewCell
+@interface GTFOButtonTableViewCell : GTFOTableViewCell
 
 @end

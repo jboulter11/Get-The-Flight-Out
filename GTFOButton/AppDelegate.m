@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import "AFNetworkActivityIndicatorManager.h"
 
 @interface AppDelegate ()
 
@@ -14,9 +16,27 @@
 
 @implementation AppDelegate
 
+-(void)launch
+{
+    [[UINavigationBar appearance] setBarStyle:UIBarStyleBlack];
+    
+    [[UINavigationBar appearance] setBarTintColor:[UIColor colorWithRed:0.97 green:0.66 blue:0.15 alpha:1]];
+    [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor]}];
+    
+    ViewController* vc = [[ViewController alloc] init];
+    [self.window setRootViewController:[[UINavigationController alloc] initWithRootViewController:vc]];
+}
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    [AFNetworkActivityIndicatorManager sharedManager].enabled = YES;
+    
+    [self launch];
+    
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

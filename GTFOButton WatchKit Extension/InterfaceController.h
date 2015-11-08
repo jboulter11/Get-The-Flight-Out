@@ -10,5 +10,5 @@
 #import <Foundation/Foundation.h>
 
 @interface InterfaceController : WKInterfaceController
-
+-(void)gtfo;
 @end
